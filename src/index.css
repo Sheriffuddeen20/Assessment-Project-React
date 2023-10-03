@@ -1,0 +1,364 @@
+.body{
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.div{
+  background: linear-gradient(to left, rgb(161, 60, 161), rgb(95, 88, 88), rgb(209, 103, 200));
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.sher{
+  width: 40px;
+  height: 40px;
+  margin-left: 60px;
+  border-radius: 20px 20px;
+}
+
+.carti:hover{
+ color: black
+
+}
+.carti{
+  color: rgb(248, 248, 248);
+  cursor: pointer;
+  color: white;
+  font-size: 40px;
+  transition: all 2s ease-in-out;
+  font-weight: bold;
+}
+.cartis:hover{
+  color: black;
+
+}
+.cartis{
+   color: rgb(248, 248, 248);
+   cursor: pointer;
+   color: white;
+   font-size: 20px;
+   transition: all 2s ease-in-out;
+   font-weight: bold;
+   display: inline-flex;
+}
+.likk{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 2s ease-in-out;
+  margin-left: 210px;
+}
+.likk:hover{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.link{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 2s ease-in-out;
+  margin-right: 2px;
+}
+.link:hover{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.liks{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 2s ease-in-out;
+  margin-right: 140px;
+}
+
+.liks:hover{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.input{
+  padding: 10px;
+  border-radius: 20px;
+  width: 250px;
+  translate: -130px;
+  border: none;
+}
+::placeholder{
+  translate: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.Posts{
+  padding: 10px;
+  margin-top: -40px;
+  margin-bottom: 30px;
+  border-bottom: 4px solid rgb(17, 16, 16);
+  
+ }
+ .comb{
+    translate: -360px;
+    margin-bottom: 20px;
+    width: 120%;
+    background-color: #fff6f6;
+      border-bottom: 4px solid rgb(255, 255, 255);
+    }
+ .img{
+     width: 250px;
+     height: 250px;
+     background-color: black;
+
+ }
+ .text{
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    font-size: 23px;
+    text-transform: capitalize;
+ }
+ .texts{
+    color: rgb(5, 5, 5);
+    font-size: 18px;
+ }
+ .combs{
+  display: flex;
+  flex-direction: row;
+
+}
+.butt{
+ 
+ padding: 10px;
+ margin-top: -40px;
+ width: 55%;
+
+}
+.butti{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+  
+.butts{
+ padding: 7px;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: orange;
+  border: none;
+  width: 250px;
+
+}
+.but{
+   margin: 10px;
+   color: white;
+   font-weight: bold;
+   background-color: rgb(231, 52, 7);
+   border: none;
+   border-radius: 20px;
+   padding: 12px;
+ } 
+ .butz{
+  margin: 10px;
+  translate: 120px;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: rgb(8, 8, 8);
+  border: none;
+ padding: 12px;
+} 
+ .pp{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: capitalize;
+ }
+
+ .foot{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  font-size: 20px;
+  text-transform: capitalize;
+ }
+ .cart{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  width: 25px;
+  border-radius: 100px;
+  height: 25px;
+  font-size: 20px;
+  top: 22.5px;
+  left: 647px;
+  background-color: black;
+  position: absolute;
+ }
+ .span {
+  background-color: rgb(233, 0, 0);
+  border-radius: 100px;
+  height: 5px;
+  width: 5px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 7px;
+  text-align: center;
+  font-size: 15px;
+ }
+ .line{
+  text-decoration: none;
+  color: black;
+ }
+.lines{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.divv{
+  margin-left: 350px;
+  padding: 20px;
+  margin-top: -40px;
+  background-color: rgb(233, 218, 218);
+  width: 600px;
+  translate: 20px;
+  
+}
+.divs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.pas{
+  margin-top: -10px;
+  margin-bottom: 35px;
+}
+.inputs{
+  padding: 10px;
+  border-radius: 20px;
+  width: 250px;
+  translate: 500px;
+  margin-top: -190px;
+  border: 2px solid black;
+}
+
+.inpu{
+  padding: 10px;
+  border-radius: 20px;
+  translate: 480px;
+  margin-top: 120px;
+ 
+}
+.inpus{
+  padding: 20px;
+  border-radius: 20px;
+  translate: 500px;
+  margin-top: 100px;
+ flex-grow: 1;
+ color: red;
+}
+.inputss{
+  padding: 10px;
+  border-radius: 20px;
+  translate: 400px;
+  margin-top: 30px;
+  width: 300px;
+
+}
+
+.potime{
+  translate: 400px;
+  margin-top: 120px;
+}
+.buto{
+padding: 10px;
+border-radius: 20px;
+translate: 600px;
+background-color: red;
+border: none;
+color: white;
+width: 70px;
+
+}
+.boto{
+  padding: 10px;
+  border-radius: 20px;
+  translate: 600px;
+  background-color: rgb(7, 7, 7);
+  border: none;
+   color: white;
+   width: 70px;
+  margin-top: -40px;
+  }
+  .boz{
+    padding: 10px;
+    border-radius: 20px;
+    translate: 530px;
+    background-color: rgb(7, 7, 7);
+    border: none;
+     color: white;
+     width: 70px;
+    margin-top: 33px;
+    }
+.knoo{
+padding: 5px;    
+color: rgb(0, 0, 0);
+font-size: 23px;
+
+}
+.kno{
+  text-align: center;
+  }
+.knoo{
+padding: 5px;    
+color: rgb(0, 0, 0);
+font-size: 23px;
+}
+.butzz{
+  margin-top: -30px;
+  translate: 680px;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: rgb(170, 81, 81);
+  border: none;
+ padding: 12px;
+} 
+.betr{
+  display: inline-flex;
+}
+.inp{
+  padding: 10px;
+  border-radius: 20px;
+  width: 250px;
+  translate: 500px;
+  margin-top: -690px;
+  border: 2px solid black;
+}
+.ins{
+  padding: 10px;
+  border-radius: 20px;
+  width: 250px;
+  translate: 500px;
+  margin-top: 30px;
+  border: 2px solid black;
+}
+.selected{
+  color: white;
+  background-color: black;
+}

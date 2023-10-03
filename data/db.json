@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": 4,
+      "datetime": "13-Sep-23 11:48:42 PM",
+      "title": "hope",
+      "body": "Dont lost hope in your creator, rather that losting a hope pray to him and be constitency in find a solution in halal "
+    },
+    {
+      "id": 1,
+      "datetime": "12-Sep-23 12:31:10 PM",
+      "category": "women",
+      "title": "Feelings",
+      "body": "having feeling for you is not by mistake but by the will of Allah subhanallahi wata ala."
+    },
+    {
+      "id": 2,
+      "datetime": "13-Sep-23 2:02:42 PM",
+      "title": "read",
+      "body": "in the name of your Lord that create mankind "
+    },
+    {
+      "id": 3,
+      "datetime": "13-Sep-23 11:53:37 PM",
+      "title": "plan",
+      "body": "Allah is the best planner."
+    }
+  ]
+}

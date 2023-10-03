@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": true,
+      "body": "having feeling for you is not by mistake but by the will of Allah subhanallahi wata ala."
+    },
+    {
+      "id": 2,
+      "checked": true,
+      "body": "in the name of your Lord that create mankind "
+    },
+    {
+      "id": 4,
+      "checked": false,
+      "body": "Allah is the best planner."
+    }
+  ]
+}
