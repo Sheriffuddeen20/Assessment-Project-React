@@ -19,22 +19,6 @@ import Control from "./inputs/Control"
 import ItemsList from "./items/ItemsList"
 
 const App = () =>{
-const [search, setSearch] = useState ('')
-const [searchResult, setSearchResult] = useState ([])
-const [messages, setMessages] = useState (JSON.parse(localStorage.getItem('shoppinglist')) || [])
-const [comment, setComment] = useState('')
-const [postBody, setPostBody] = useState('')
-const [sendTitle, setSendTitle] = useState('')
-const [sendBody, setSendBody] = useState('')
-const [postTitle, setPostTitle] = useState('')
-const [editBody, setEditBody] = useState('')
-const [editTitle, setEditTitle] = useState('')
-const navigate = useNavigate()
-const [posts, setPosts] = useState([])
-const {data, fetchError, isloading} =useAxiosFetch('http://localhost:3500/posts')
-   useEffect(() =>{
-    localStorage.setItem('shoppinglist', JSON.stringify(messages))
-   }, [messages])
 
    useEffect(() =>{
    const filterSearch = posts.filter((post) => ((post.title).toLowerCase().includes(search.toLowerCase())) 

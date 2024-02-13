@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
-const Posts = ({post, handleDelete}) =>{
+
+const Posts = ({post, handleDelete, count,coun, couni, counti, counts, handleCount,handleCounts, handleCoun, handleCounti, handleCouni}) =>{
 
 
     return(
@@ -17,7 +18,14 @@ const Posts = ({post, handleDelete}) =>{
                     post.body :
                     `${(post.body).slice (0, 45)} ...... ` 
                 }....see more</h2>
+              
             </Link>
+            <button onClick={handleCount}>{post.thumbup}{count}</button>
+            <button onClick={handleCounts}>{post.smile}{counts}</button>
+            <button onClick={handleCoun}>{post.angry}{coun}</button>
+            <button onClick={handleCounti}>{post.heart}{counti}</button>
+            <button onClick={handleCouni}>{post.comment}{couni}</button>
+
         </div>
         </div>
     )
